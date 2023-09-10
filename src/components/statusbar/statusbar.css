@@ -1,0 +1,113 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap');
+
+.main-container {
+    height: 78px;
+    flex-shrink: 0;
+    width: 100%;
+    background: var(--Primary, #008F8F);
+}
+.search-bar {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    padding-top: 20px;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.search-input {
+    outline: none;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap');
+
+.main-container {
+  height: 78px;
+  flex-shrink: 0;
+  width: 100%;
+  background: var(--Primary, #008F8F);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60%;
+  padding: 0 10px; /* Adjust padding as needed */
+  background-color: white;
+  margin-top: 5px;
+  margin-left: 25px;
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.search-icon-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Adjust margin as needed */
+  /* border: 2px solid #D6D9DF */
+}
+
+.search-icon {
+  color: #808080; /* Customize the icon color */
+}
+
+.search-input {
+  outline: none;
+  border: none; /* Remove input border */
+  width: 100%;
+  margin-top: 15px;
+  height: 50%
+}
+
+.dropdown {
+    width: 200px;
+    /* background-color: red; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 70%
+}
+.dropdown-button {
+    width: 80%;
+    justify-content:space-between;
+    gap: 40px;
+    align-items: center;
+    display: flex;
+    height:50px;
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    width: 80%;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    height: 50px;
+    font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.5px;
+padding-left: 20px;
+}
+
+.dropdown-item:hover {
+    cursor: pointer;
+    background: var(--Primary, beige);
+}
+
+.dropdown-button:hover {
+    cursor: pointer;
+    background: var(--Primary, beige);
+}
